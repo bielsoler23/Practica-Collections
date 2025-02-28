@@ -1,0 +1,15 @@
+# Archivos de IntelliJ
+.idea/
+*.iml
+
+# Archivos de compilación
+/out/
+/target/
+
+# Dependencias de Gradle/Maven
+/.gradle/
+/.mvn/
+
+# Configuración del sistema operativo
+*.DS_Store
+*.log
