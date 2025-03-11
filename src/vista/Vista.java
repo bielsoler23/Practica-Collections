@@ -1,7 +1,9 @@
+package vista;
+
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class Vista {
+    public static void menuInici() {
         Scanner scanner = new Scanner(System.in);
         int option;
 
@@ -20,15 +22,12 @@ public class Main {
             switch (option) {
                 case 1:
                     System.out.println("Has seleccionat: Introduir producte");
-
                     break;
                 case 2:
                     System.out.println("Has seleccionat: Passar per caixa");
-
                     break;
                 case 3:
                     System.out.println("Has seleccionat: Mostrar carret de compra");
-
                     break;
                 case 0:
                     System.out.println("Acabant...");
