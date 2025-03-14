@@ -1,42 +1,42 @@
 package vista;
 
-import java.util.Scanner;
-
 public class Vista {
     public static void menuInici() {
-        Scanner scanner = new Scanner(System.in);
-        int option;
+        System.out.println("BENVINGUT AL SUPERMERCAT");
+        System.out.println("-------------");
+        System.out.println("--- INICI ---");
+        System.out.println("-------------");
+        System.out.println("1) Introduir producte");
+        System.out.println("2) Passar per caixa");
+        System.out.println("3) Mostrar carret de compra");
+        System.out.println("0) Acabar");
+        System.out.print("Selecciona una opció: ");
+    }
 
-        do {
-            System.out.println("BENVINGUT AL SUPERMERCAT");
-            System.out.println("-------------");
-            System.out.println("--- INICI ---");
-            System.out.println("-------------");
-            System.out.println("1) Introduir producte");
-            System.out.println("2) Passar per caixa");
-            System.out.println("3) Mostrar carret de compra");
-            System.out.println("0) Acabar");
-            System.out.print("Selecciona una opció: ");
-            option = scanner.nextInt();
+    public static void menuProducte() {
+        System.out.println("----------------");
+        System.out.println("--- PRODUCTE ---");
+        System.out.println("----------------");
+        System.out.println("1) Alimentació");
+        System.out.println("2) Tèxtil");
+        System.out.println("3) Electrònica");
+        System.out.println("0) Tornar");
+        System.out.print("Selecciona una opció: ");
+    }
 
-            switch (option) {
-                case 1:
-                    System.out.println("Has seleccionat: Introduir producte");
-                    break;
-                case 2:
-                    System.out.println("Has seleccionat: Passar per caixa");
-                    break;
-                case 3:
-                    System.out.println("Has seleccionat: Mostrar carret de compra");
-                    break;
-                case 0:
-                    System.out.println("Acabant...");
-                    break;
-                default:
-                    System.out.println("Opció no vàlida. Si us plau, selecciona una opció vàlida.");
-            }
-        } while (option != 0);
+    public static void PassarPerCaixa() {
+        System.out.println("------------------");
+        System.out.println("--- SAPAMERCAT ---");
+        System.out.println("------------------");
+        System.out.println("JIJIJIJA");
+        System.out.println();
+    }
 
-        scanner.close();
+    public static void MostrarCarret() {
+        System.out.println("--------------");
+        System.out.println("--- CARRET ---");
+        System.out.println("--------------");
+        System.out.println("JIJIJIJA");
+        System.out.println();
     }
 }
